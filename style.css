@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none ;
+}
+
+
+.header {
+    display:flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    margin-left: 300px;
+}
+.menu li{
+        display: inline-block;
+        padding: 10px 20px;
+        color: rgb(52, 47, 47);
+        cursor: pointer;
+}
+.menu {
+    width: 960px;
+    margin:0 auto;
+    margin-right: 55px;
+}
+.menu li:hover{
+    background-color: black;
+    color: blanchedalmond;
+}
+.header-font {
+    text-align: center;
+   background-image: url('./b2.jpg');
+    color: blanchedalmond;
+    padding: 80px 0;
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-font h1{
+   margin: 10px 0;
+  
+}
+.header-font p{
+    margin: 10px 0;
+}
+.header-font button{
+    margin-top: 40px;
+    background-color: darkorange;
+    padding: 10px 20px;
+    color: wheat;
+    border: none;
+}
+.text {
+    width: 300px;   
+    margin-left: 50px;
+    margin: 0px auto;
+    display: inline-block;
+}
+.text p a{
+    color: orange;
+}
+.container {
+   padding: 10px 300px;
+   
+}
+.container h3{
+    margin-top: 50px;
+    padding: 20px 45px;
+    background-color:black;
+    color: blanchedalmond;
+}
+.container button{
+
+    background-color: darkorange;
+    padding: 10px 20px;
+    margin-left: 110px;
+    color: wheat;
+    display: inline-block;
+    border: none;
+}
+.container p{
+    color: rgb(12, 12, 12);
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
